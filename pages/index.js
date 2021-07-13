@@ -24,7 +24,8 @@ export default function Home() {
   ]
 
   return (
-    <>
+
+  <>
       <AlurakutMenu />
       <MainGrid>
         {/* <Box style="grid-area: profileArea;"> */}
@@ -61,6 +62,6 @@ export default function Home() {
           </ProfileRelationsBoxWrapper>
         </div>
       </MainGrid>
-    </>
+  </>
   )
 }
