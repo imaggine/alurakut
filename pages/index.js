@@ -33,8 +33,6 @@ function ProfileRelationsBox(propriedades){
     </h2>
     <ul>
         {propriedades.items.map((itemAtual) => {
-          console.log(contador)
-
           if (contador <= 6) {
             contador = contador + 1
             return (
@@ -73,7 +71,7 @@ export default function Home() {
     {id: 'cazuza', title: 'cazuza', imageUrl: 'https://img.estadao.com.br/fotos/politica/eleicoes-2020/MG/FMG130001007716_div.jpg'},
     {id: 'gui', title: 'guizão', imageUrl: 'https://pbs.twimg.com/profile_images/1210368153835974656/ap8SZ4Jw_400x400.jpg'},
     {id: 'denis', title: 'denivaldo', imageUrl: 'https://media-exp1.licdn.com/dms/image/C4E03AQGDgPyK3VnZgw/profile-displayphoto-shrink_200_200/0/1516477101236?e=1630540800&v=beta&t=bio6eX-jF_pXRREQeB9e-SxfNGA2-q0KtEFuR-wlXqI'},
-    {id: 'chico', title: 'chico', imageUrl: 'https://scontent-gru2-1.cdninstagram.com/v/t51.2885-19/s320x320/130802557_208883217492607_8403395150885192218_n.jpg?_nc_ht=scontent-gru2-1.cdninstagram.com&_nc_ohc=wdKj2s3u9WQAX-os-rt&edm=ABfd0MgBAAAA&ccb=7-4&oh=9b0b2cc5b1a4cd97736c4520c7f882d3&oe=60F8892C&_nc_sid=7bff83'},
+    {id: 'chico', title: 'chico', imageUrl: 'https://i.ibb.co/z5mYv2q/130802557-208883217492607-8403395150885192218-n.jpg'},
   ]
 
   const [seguidores, setSeguidores] = React.useState([]);
